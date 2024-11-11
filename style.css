@@ -1,21 +1,82 @@
 body {
-    background-color: #f0f0f0;
+    background-color: #7e41aa80;
+    font-family: Arial, sans-serif;
 }
+
 .card {
-    margin-top: 50px;
+    border: none;
     border-radius: 15px;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-top: 50px;
 }
+
+.card-body {
+    padding: 30px;
+}
+
 .profile-img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
 }
-.btn-instagram {
-    background-color: #e1306c;
-    color: white;
+
+h2 {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
 }
-.btn-instagram:hover {
-    background-color: #c1275b;
+
+.text-muted {
+    font-size: 1em;
+    color: #777;
+    font-style: italic;
+}
+
+p {
+    font-size: 0.95em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+hr {
+    border-top: 1px solid #a620c4a9;
+}
+
+.list-unstyled {
+    color: #555;
+}
+
+.list-unstyled li {
+    font-size: 0.9em;
+    margin: 10px 0;
+}
+
+.fa-envelope,
+.fa-whatsapp,
+.fa-house {
+    color: #555;
+    margin-right: 10px;
+}
+
+.btn-tiktok {
+    background-color: #000;
+    color: #ffffff;
+    font-size: 0.9em;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-tiktok:hover {
+    background-color: #333;
+}
+
+.btn-tiktok i {
+    margin-right: 8px;
 }
